@@ -1,0 +1,16 @@
+.nav button{
+    background-color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    font-size: 25px;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    padding: 20px;
+}

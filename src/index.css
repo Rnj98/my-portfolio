@@ -1,0 +1,13 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  background-image: url("/src/components/assets/Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
