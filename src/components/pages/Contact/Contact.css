@@ -1,0 +1,14 @@
+.divGreeter {
+    color: white;
+}
+
+.contactForm {
+
+}
+
+.mainContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
