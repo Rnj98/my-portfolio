@@ -10,13 +10,13 @@ function Navbar() {
         <img src={logo} style={{ width: '100px', padding: '5px'}}/>
     </div>
     <nav className='nav'>
-        <Link to="/">
+        <Link to="/my-portfolio/">
             <button>Home |</button>
         </Link>
-        <Link to="/projects">
+        <Link to="/my-portfolio/projects">
             <button>Projects |</button>
         </Link>
-        <Link to="/contact">
+        <Link to="/my-portfolio/contact">
             <button>Contact</button>
         </Link>
     </nav>
