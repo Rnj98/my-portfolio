@@ -1,10 +1,18 @@
-.nav button{
+.nav button {
     background-color: transparent;
     font-family: 'Courier New', Courier, monospace;
     border: none;
-    font-size: 25px;
+    font-size: 30px;
     color: white;
-}
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;
+  }
+  
+  .nav button:hover {
+    text-decoration: underline;
+  }  
 
 .nav {
     display: flex;
@@ -13,4 +21,21 @@
     right: 100px;
     top: 50px;
     padding: 20px;
+    gap: 20px;
 }
+
+
+@media only screen and (max-width: 768px) { /* added */
+    .nav {
+      flex-direction: column; /* change from row to column */
+      position: static; /* remove absolute positioning */
+      top: auto; /* remove top positioning */
+      right: auto; /* remove right positioning */
+      padding: 0; /* remove padding */
+    }
+  
+    .nav button {
+      font-size: 20px; /* make the font size smaller */
+      padding: 10px; /* add padding to the buttons for better touch targets */
+    }
+  }

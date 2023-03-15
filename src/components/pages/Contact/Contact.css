@@ -1,12 +1,56 @@
-.divGreeter {
-    color: white;
-}
-
-
-
 .mainContact {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
-}
+    position: absolute;
+    left: 250px;
+    top: 200px;
+    width: 300px;
+  }
+  
+  .divGreeter {
+    display: flex;
+    color: white;
+    font-size: 25px;
+  }
+  
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    height: 250px;
+    align-items: center;
+  }
+  
+  .contactForm input, textarea {
+    border: transparent;
+    background-color: transparent;
+  }
+  
+  @media only screen and (max-width: 768px) { /* added */
+    .mainContact {
+      position: static; /* remove absolute positioning */
+      width: 100%; /* make the section full width */
+      margin-top: 50px; /* add some space from the top */
+      margin-left: auto; /* center horizontally */
+      margin-right: auto; /* center horizontally */
+      padding: 20px; /* add some padding */
+    }
+  
+    .divGreeter {
+      font-size: 20px; /* make the font size smaller */
+      text-align: center; /* center the text */
+      margin-bottom: 20px; /* add some space at the bottom */
+    }
+  
+    .contactForm {
+      max-width: 100%; /* make the form full width */
+      height: auto; /* remove fixed height */
+      margin: 0; /* remove margin */
+    }
+  
+    .contactForm input, .contactForm textarea {
+      width: 100%; /* make the input fields full width */
+      margin-bottom: 10px; /* add some space at the bottom */
+    }
+  }
+  
