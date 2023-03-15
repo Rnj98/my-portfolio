@@ -11,10 +11,10 @@ function Navbar() {
     </div>
     <nav className='nav'>
         <Link to="/">
-            <button>Home</button>
+            <button>Home |</button>
         </Link>
         <Link to="/projects">
-            <button>Projects</button>
+            <button>Projects |</button>
         </Link>
         <Link to="/contact">
             <button>Contact</button>
