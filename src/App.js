@@ -5,6 +5,10 @@ import Home from "./components/pages/Home/Home";
 import Projects from "./components/pages/Projects/Projects";
 import Contact from "./components/pages/Contact/Contact";
 import './App.css'
+
+
+
+
 export default function App() {
   return (
     <div className="App">

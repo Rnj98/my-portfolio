@@ -24,10 +24,16 @@
     gap: 20px;
 }
 
+.logo-container img {
+  max-width: 100%;
+  height: auto; 
+  max-height: 115px;
+  padding: 15px;
+}
 
 @media only screen and (max-width: 768px) { /* added */
     .nav {
-      flex-direction: column; /* change from row to column */
+      flex-direction: row; /* change from row to column */
       position: static; /* remove absolute positioning */
       top: auto; /* remove top positioning */
       right: auto; /* remove right positioning */
@@ -35,7 +41,12 @@
     }
   
     .nav button {
-      font-size: 20px; /* make the font size smaller */
+      font-size: 15px; /* make the font size smaller */
       padding: 10px; /* add padding to the buttons for better touch targets */
+    }
+
+    .logo-container img {
+      width: 100%; /* or any percentage value that works for your design */
+      max-width: 100px;
     }
   }

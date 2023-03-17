@@ -16,9 +16,11 @@ export default function Contact() {
         <input type='text' placeholder='Email' />
         <textarea placeholder='Message' />
         <button className='buttons'>Send Message</button>
-        <button className='buttons'>Clear Form</button>
         <a href='https://github.com/rnj98' target="_blank">
-          <button className='buttons'>Go to my GitHub profile</button>
+          <button className='buttons'>GitHub</button>
+        </a>
+        <a href='https://www.linkedin.com/in/ryan-jolley-444a97243/' target="_blank">
+          <button className='buttons'>Linkedin</button>
         </a>
       </div>
     </div>

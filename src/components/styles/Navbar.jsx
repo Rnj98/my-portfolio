@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <div className='navContent'>
     <div className='logo-container'>
-        <img src={logo} style={{ width: '170px', padding: '10px'}} alt="logo"/>
+        <img src={logo} alt="logo"/>
     </div>
     <nav className='nav'>
         <Link to="/">
