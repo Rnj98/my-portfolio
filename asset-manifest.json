@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.1c141236.css",
-    "main.js": "/my-portfolio/static/js/main.b7d5f153.js",
-    "static/media/Background.jpg": "/my-portfolio/static/media/Background.4b68275e5f883c37d518.jpg",
-    "static/media/logo.png": "/my-portfolio/static/media/logo.fd34fde15f7dc67671f3.png",
+    "main.css": "/my-portfolio/static/css/main.67208548.css",
+    "main.js": "/my-portfolio/static/js/main.cacec34f.js",
+    "static/media/paddle-pals.png": "/my-portfolio/static/media/paddle-pals.0b0e8a5b02767435a066.png",
+    "static/media/triangle.jpeg": "/my-portfolio/static/media/triangle.dc88d073134b09206b9a.jpeg",
+    "static/media/landing-page.png": "/my-portfolio/static/media/landing-page.0e1f819ba8f11c0b88df.png",
     "static/media/port0.png": "/my-portfolio/static/media/port0.7f67c4ae5c5e3b6f7c26.png",
+    "static/media/RJ-logos_black.png": "/my-portfolio/static/media/RJ-logos_black.f3b2ec63750f517396cc.png",
     "index.html": "/my-portfolio/index.html",
-    "main.1c141236.css.map": "/my-portfolio/static/css/main.1c141236.css.map",
-    "main.b7d5f153.js.map": "/my-portfolio/static/js/main.b7d5f153.js.map"
+    "main.67208548.css.map": "/my-portfolio/static/css/main.67208548.css.map",
+    "main.cacec34f.js.map": "/my-portfolio/static/js/main.cacec34f.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c141236.css",
-    "static/js/main.b7d5f153.js"
+    "static/css/main.67208548.css",
+    "static/js/main.cacec34f.js"
   ]
 }
