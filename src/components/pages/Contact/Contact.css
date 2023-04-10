@@ -1,50 +1,69 @@
 .mainContact {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin: 0 20px; /* add some padding to the sides */
+  position: absolute;
+  top: 120px;
+  left: 425px;
+  max-width: 65%;
+  margin: 25px;
 }
-
-.divGreeter {
-  display: flex;
-  color: white;
-  font-size: 25px;
-  max-width: 450px;
-  width: 100%;
-  left: 35%;
-  position: relative;
+.divGreeter p {
+  max-width: 50%;
 }
 
 .contactForm {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%; /* make the form fill the available space */
+  width: 35%;
+  position: relative;
+  left: 45px;
 }
 
-.contactForm input,
-.contactForm textarea {
-  border: 2px grey solid;
-  background-color: transparent;
-  font-size: 25px;
-  width: 100%; /* make the input fields fill the available space */
-  max-width: 45%; /* make the input fields fill the available space */
+input,
+textarea {
+  display: block;
+  width: 45%;
+  padding: 10px;
   margin-bottom: 5px;
+  border-radius: 5px;
+  border: 2px black solid;
+  background-color: #f2f2f2;
+  font-size: 16px;
+  resize: none;
+}
+textarea {
+  height: 80px;
+}
+.send-button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px;
+  position: relative;
+  background-color: #4CAF50;
+  color: rgb(255, 244, 244);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
-@media only screen and (max-width: 768px) {
-  .mainContact {
-    margin-top: 50px;
-  }
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 55px;
+  margin-right: 25px;
+}
 
-  .divGreeter {
-    font-size: 20px;
-    text-align: center;
-    margin-bottom: 20px;
-  }
+.link {
+  width: 100px;
+  height: auto;
+}
 
-  .contactForm input,
-  .contactForm textarea {
-    font-size: 15px;
-  }
+.p-links {
+  position: relative;
+  left: 35px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: bold;
 }

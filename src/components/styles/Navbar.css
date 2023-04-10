@@ -3,7 +3,7 @@
     font-family: 'Courier New', Courier, monospace;
     border: none;
     font-size: 30px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     text-decoration: none;
     cursor: pointer;
@@ -18,8 +18,8 @@
     display: flex;
     flex-direction: row;
     position: absolute;
-    right: 100px;
-    top: 50px;
+    left: 30%;
+    top: 40px;
     padding: 20px;
     gap: 20px;
 }
@@ -27,26 +27,25 @@
 .logo-container img {
   max-width: 100%;
   height: auto; 
-  max-height: 115px;
-  padding: 15px;
+  max-height: 130px;
 }
 
-@media only screen and (max-width: 768px) { /* added */
+@media only screen and (max-width: 768px) { 
     .nav {
-      flex-direction: row; /* change from row to column */
-      position: static; /* remove absolute positioning */
-      top: auto; /* remove top positioning */
-      right: auto; /* remove right positioning */
-      padding: 0; /* remove padding */
+      flex-direction: row; 
+      position: static; 
+      top: auto; 
+      right: auto; 
+      padding: 0; 
     }
   
     .nav button {
-      font-size: 15px; /* make the font size smaller */
-      padding: 10px; /* add padding to the buttons for better touch targets */
+      font-size: 20px; 
+      padding: 10px; 
     }
 
     .logo-container img {
-      width: 100%; /* or any percentage value that works for your design */
+      width: 100%; 
       max-width: 100px;
     }
   }

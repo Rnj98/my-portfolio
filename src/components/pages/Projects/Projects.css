@@ -1,0 +1,49 @@
+.projects-list1, .projects-list2 {
+  border: 2px solid black;
+  border-radius: 4px;
+  max-width: 825px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.projects-container {
+  display: flex;
+  gap: 30px;
+  margin: 5px;
+}
+
+.projects-container img {
+  max-width: 75%;
+  max-height: 420px;
+  margin-top: auto;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.project-item h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+}
+.project-item p {
+    display: flex;
+    position: relative;
+    left: 5px;
+    text-align: center;
+    font-size: 30px;
+}
+.project-item a {
+    display: flex;
+    position: relative;
+    left: 220px;
+    font-size: 20px;
+    font-weight: 600;
+    max-width: 150px;
+}
+
+.project-item a :hover {
+    cursor: pointer;
+}

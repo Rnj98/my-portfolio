@@ -6,7 +6,7 @@ body {
 }
 
 #root {
-  background-image: url("/src/components/assets/Background.jpg");
+  background-image: url("/src/components/assets/triangle.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
