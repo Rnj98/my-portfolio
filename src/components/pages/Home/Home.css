@@ -2,11 +2,6 @@ body {
     margin: 0;
     padding: 0;
 }
-.navContent {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
 p {
     color: rgb(0, 0, 0);
@@ -17,8 +12,10 @@ p {
 
 .home-content {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
+    margin-top: 12vh;
+    margin-left: 2vh;
+    gap: 20px;
 }
 
 .home-content img {

@@ -6,8 +6,8 @@ body {
 }
 
 #root {
-  background-image: url("/src/components/assets/triangle.jpeg");
-  background-repeat: no-repeat;
+  background-image: url("/src/components/assets/background-img.jpeg");
+  background-repeat: repeat;
   background-size: cover;
   height: 100%;
 }
