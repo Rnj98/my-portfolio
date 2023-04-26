@@ -17,6 +17,8 @@
 .nav {
     display: flex;
     justify-content: center;
+    position: relative;
+    right: 6%;
     padding: 15px;
     gap: 20px;
 }

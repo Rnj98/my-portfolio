@@ -6,7 +6,7 @@ function Skills() {
     <div className="skills-container">
       <div className="skills-row-container">
         <div className="icon-row">
-          <p>Languages</p>
+          <p className="title">Languages</p>
           <div className="icon-container">
             <div className="icon-img">
               <img src={assets.JS} alt="chrome" />
@@ -27,7 +27,7 @@ function Skills() {
           </div>
         </div>
         <div className="icon-row">
-          <p>Frameworks & Libraries</p>
+          <p className="title">Frameworks & Libraries</p>
           <div className="icon-container">
           <div className="icon-img">
               <img src={assets.REACT} alt="chrome" />
@@ -60,7 +60,7 @@ function Skills() {
             </div>
           </div>
           <div className="icon-row">
-            <p>Data Management</p>
+            <p className="title">Data Management</p>
             <div className="icon-container">
             <div className="icon-img">
               <img src={assets.POSTGRESQL} alt="chrome" />
@@ -73,7 +73,7 @@ function Skills() {
           </div>
           </div>
           <div className="icon-row">
-            <p>Integration & Testing</p>
+            <p className="title">Integration & Testing</p>
             <div className="icon-container">
             <div className="icon-img">
               <img src={assets.SELENIUM} alt="chrome" />
@@ -90,7 +90,7 @@ function Skills() {
           </div>
           </div>
           <div className="icon-row">
-            <p>Tools & Software</p>
+            <p className="title">Tools & Software</p>
             <div className="icon-container">
             <div className="icon-img">
               <img src={assets.AWS} alt="chrome" />

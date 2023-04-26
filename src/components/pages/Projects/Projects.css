@@ -1,54 +1,58 @@
-.projects-list1, .projects-list2 {
-  border: 2px solid black;
+.project-item h2 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.project-item p {
+  text-align: center;
+  margin: 0px 15px;
+  font-size: 18px;
+}
+
+.project-item a {
+  font-size: 20px;
+  padding: 2px 7px;
   border-radius: 4px;
-  max-width: 825px;
+  background-color: red;
+  font-weight: bold;
+  max-width: 150px;
+  margin: 15px;
+  text-decoration: none;
+  color: white;
+}
+.project-item a:hover {
+  cursor: pointer;
+}
+
+.projects-list img {
+  display: block;
+  max-width: 800px;
+  max-height: auto;
+  margin: 10px auto;
+  border-radius: 4px;
+}
+
+.projects-list {
   display: flex;
   flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.1);
-  max-height: 83vh;
-  overflow-y: auto;
-  margin-top: 12px;
+  height: auto;
+  width: 60%;
+  align-items: center;
+  margin: 30px;
+  border: 5px solid black;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.062);
+}
+.project-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .projects-container {
   display: flex;
-  gap: 30px;
-  margin: 5px;
-  text-align: center;
-}
-
-.projects-container img {
-  display: block;
-  max-width: 75%;
-  max-height: 420px;
-  margin: auto;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-bottom: 10px;
-}
-
-.project-item h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 45px;
-}
-.project-item p {
-    display: flex;
-    position: relative;
-    left: 5px;
-    text-align: center;
-    font-size: 30px;
-}
-.project-item a {
-    display: flex;
-    position: relative;
-    left: 220px;
-    font-size: 20px;
-    font-weight: 600;
-    max-width: 150px;
-}
-
-.project-item a :hover {
-    cursor: pointer;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  height: 86vh;
 }

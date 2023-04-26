@@ -1,33 +1,38 @@
 
-.skills-container {
-    display: flex;
-}
-
 .skills-row-container {
     display: flex;
     flex-direction: column;
 }
 
-.icon-row {
-    display: block;
+.icon-img img {
+    width: 50px;
+    max-height: 45px;
 }
-
-.icon-img img{
-    max-width: 20px;
-    max-height: 20px;
-    width: auto;
-}
-
 .icon-img {
-    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 50px;
+    max-height: 50px;
+    width: auto;
+    margin: 5px;
+    padding-top: 7px;
 }
 
 p {
     font-size: 15px;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .icon-container {
     display: flex;
-    gap: 100px;
+    position: relative;
+    left: 10px;
+    gap: 50px;
+}
+
+.title {
+    font-size: 20px;
+    text-decoration: underline;
 }

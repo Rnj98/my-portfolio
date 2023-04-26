@@ -1,8 +1,9 @@
 .mainContact {
   display: flex;
   flex-direction: column;
-  position: absolute;
-  top: 120px;
+  justify-content: center;
+  position: relative;
+  top: 5%;
   left: 425px;
   max-width: 65%;
   margin: 25px;
@@ -34,15 +35,14 @@ textarea {
 }
 .send-button {
   display: block;
-  margin-top: 20px;
-  padding: 10px;
+  margin-top: 10px;
   position: relative;
   background-color: #4CAF50;
   color: rgb(255, 244, 244);
   border: none;
-  border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
+  width: 47.25%;
 }
 
 .links {
@@ -65,5 +65,10 @@ textarea {
   left: 35px;
   margin-bottom: 10px;
   font-size: 25px;
+  font-weight: bold;
+}
+
+.contact-p {
+  font-size: 20px;
   font-weight: bold;
 }

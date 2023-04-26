@@ -23,7 +23,7 @@ export default function Contact() {
     <form ref={form} onSubmit={sendEmail}>
     <div className="mainContact">
       <div className="divGreeter">
-        <p>
+        <p className="contact-p">
           I would love to hear from you! If you have any questions, or would
           like a copy of my resume, please send me a message here!
         </p>
